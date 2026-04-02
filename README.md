@@ -11,7 +11,7 @@ A fully responsive React-based e-commerce platform for premium digital tools, bu
 
 ## 🌐 Live Site
 
-🔗 **[View Live →](https://fahimuntasin.github.io/Assignment-6)**
+🔗 **[View Live →](https://digital-tools-ten.vercel.app/)**
 
 ---
 
