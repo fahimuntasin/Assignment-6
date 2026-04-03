@@ -1,0 +1,98 @@
+import designTool from "../assets/assets/products/design-tool.png";
+import operation from "../assets/assets/products/operation.png";
+import portfolio from "../assets/assets/products/portfolio.png";
+import shoppingCart from "../assets/assets/products/shopping-cart.png";
+import socialMedia from "../assets/assets/products/social-media.png";
+import writing from "../assets/assets/products/writing_2327400 1.png";
+const products = [
+  {
+    id: 1,
+    name: "AI Writing Pro",
+    description: "Generate high-quality content, blogs, and marketing copy in seconds with AI-powered tools.",
+    price: 29,
+    period: "mo",
+    tag: "Best Seller",
+    tagType: "best-seller",
+    features: ["Unlimited generations", "50+ writing templates", "Grammar correction"],
+    icon: writing,
+  },
+  {
+    id: 2,
+    name: "Design Templates Pack",
+    description: "2000+ premium templates for social media, presentations, and marketing materials.",
+    price: 49,
+    period: "One-Time",
+    tag: "Popular",
+    tagType: "popular",
+    features: ["2000+ templates", "Monthly updates", "Commercial license"],
+    icon: designTool,
+  },
+  {
+    id: 3,
+    name: "Premium Stock Assets",
+    description: "Access millions of royalty-free photos, icons, and graphics for your projects.",
+    price: 19,
+    period: "mo",
+    tag: "New",
+    tagType: "new",
+    features: ["10M+ assets", "4K resolution", "No attribution"],
+    icon: shoppingCart,
+  },
+  {
+    id: 4,
+    name: "Automation Toolkit",
+    description: "Automate repetitive tasks and streamline your workflow with powerful tools.",
+    price: 79,
+    period: "mo",
+    tag: "Popular",
+    tagType: "popular",
+    features: ["60+ automations", "API access", "Custom workflows"],
+    icon: operation,
+  },
+  {
+    id: 5,
+    name: "Resume Builder Pro",
+    description: "Create professional resumes that land interviews with our AI optimization.",
+    price: 15,
+    period: "One-Time",
+    tag: "New",
+    tagType: "new",
+    features: ["100+ templates", "ATS optimization", "Export to PDF"],
+    icon: portfolio,
+  },
+  {
+    id: 6,
+    name: "Social Media Content Kit",
+    description: "Complete toolkit for creating and scheduling engaging social media posts.",
+    price: 39,
+    period: "mo",
+    tag: "Best Seller",
+    tagType: "best-seller",
+    features: ["5000+ assets", "Scheduler included", "Analytics dashboard"],
+    icon: socialMedia,
+  },
+  {
+    id: 7,
+    name: "SEO Master Suite",
+    description: "Dominate search rankings with AI-powered SEO tools and keyword research.",
+    price: 59,
+    period: "mo",
+    tag: "Popular",
+    tagType: "popular",
+    features: ["Keyword research", "Site audit", "Backlink tracker"],
+    icon: operation,
+  },
+  {
+    id: 8,
+    name: "Video Editor Cloud",
+    description: "Professional video editing in your browser. No download needed, powered by AI.",
+    price: 35,
+    period: "mo",
+    tag: "New",
+    tagType: "new",
+    features: ["4K export", "AI auto-edit", "100GB storage"],
+    icon: designTool,
+  },
+];
+
+export default products;
