@@ -61,7 +61,7 @@ const Pricing = () => {
           {plans.map((plan) => (
             <div
               key={plan.name}
-              className={`rounded-2xl p-6 flex flex-col gap-4 border transition ${
+              className={`rounded-xl p-6 flex flex-col gap-4 border transition ${
                 plan.highlight
                   ? "bg-purple-600 text-white border-purple-600 shadow-xl scale-105"
                   : "bg-white text-gray-800 border-gray-200"
